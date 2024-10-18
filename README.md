@@ -1,7 +1,7 @@
 
 # Quack
 
-Social Media App "Quack" built in ReactJs. 
+Quack is a social media application built with React.js that allows users to connect, share, and interact with each other seamlessly.
 
 ## Features
 
@@ -30,29 +30,39 @@ Social Media App "Quack" built in ReactJs.
 
 ## Run Locally
 
-Clone the project
+Step 1: Clone the project
 
 ```bash
   git clone https://github.com/FaizwebWorks/Quack-project.git
 ```
 
-Go to the project directory
+Step 2: Go to the project directory
 
 ```bash
   cd react-social-media
 ```
 
-Install dependencies
+Step 3: Install dependencies
 
 ```bash
   npm install
 ```
 
-Start the server
+Step 4: Set Up Environment Variables
+
+In the root directory, create a .env file and add the following line:
+
+```bash
+REACT_APP_JWT_SECRET=your_secret_key_here
+```
+
+Step 5: Start the Application
+
+Launch the application using the command:
 
 ```bash
   npm run start
 ```
 
-
+You should see the application running on http://localhost:3000.
 
